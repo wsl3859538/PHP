@@ -28,7 +28,7 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    <input type="submit" value="�ύ" />
+                    <input type="submit" value="提交" />
                 </td>
             </tr>
         </table>
