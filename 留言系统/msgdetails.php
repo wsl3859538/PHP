@@ -13,16 +13,16 @@
 <title>Document</title>
 </head>
 <body>
-<h2>ÁôÑÔÁÐ±íÒ³Ãæ-</h2><a href="index.php">Ìí¼ÓÁôÑÔ</a>
+<h2>ç•™è¨€åˆ—è¡¨é¡µé¢-</h2><a href="index.php">æ·»åŠ ç•™è¨€</a>
 <div>
     <table>
         <tr>
-            <th>±àºÅ</th>
-            <th>±êÌâ</th>
-            <th>ÄÚÈÝ</th>
-            <th>ÁôÑÔÕß</th>
-            <th>·¢²¼Ê±¼ä</th>
-            <th>²Ù×÷</th>
+            <th>ç¼–å·</th>
+            <th>æ ‡é¢˜</th>
+            <th>å†…å®¹</th>
+            <th>ç•™è¨€è€…</th>
+            <th>å‘å¸ƒæ—¶é—´</th>
+            <th>æ“ä½œ</th>
         </tr>
         <?php 
             foreach ($arr as $key=>$val){
@@ -34,8 +34,8 @@
             <td><?php echo $val['username']?></td>
             <td><?php echo $val['time']?></td>
             <td>
-                <a href="#">¸üÐÂ</a>
-                <a href="#">É¾³ý</a>
+                <a href="#">æ›´æ–°</a>
+                <a href="#">åˆ é™¤</a>
             </td>
         </tr>    
            

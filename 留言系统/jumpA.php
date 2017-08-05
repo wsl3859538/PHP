@@ -24,11 +24,11 @@
 
     $arr = serialize($arr);
     if(file_put_contents($fileName, $arr)){
-        echo '添加留言成功!','<br />',
-        '<a href="index.php">继续留言</a>',"\n",
-        '<a href="msgdetails.php">查看留言</a>';
+        echo '娣诲姞鐣欒█鎴愬姛!','<br />',
+        '<a href="index.php">缁х画鐣欒█</a>',"\n",
+        '<a href="msgdetails.php">鏌ョ湅鐣欒█</a>';
     }else{
-        echo '添加留言失败!';
+        echo '娣诲姞鐣欒█澶辫触!';
     }
     
 ?>

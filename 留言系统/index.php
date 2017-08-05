@@ -4,31 +4,31 @@
 	<title>Document</title>
 </head>
 <body>
-    <h2 style="text-align: center">Ìí¼ÓÁôÑÔ</h2>
+    <h2 style="text-align: center">æ·»åŠ ç•™è¨€</h2>
     <form action="jumpA.php" method="get">
         <input type="hidden" name="act" value="add">
         <table style="background: rgba(33, 150, 243, 0.58);border-collapse: collapse;width: 80%;">
             <tr>
-                <td>ÁôÑÔÕß</td>
+                <td>ç•™è¨€è€…</td>
                 <td>
                     <input type="text" name='ly_name' />
                 </td>
             </tr>
             <tr>
-                <td>±êÌâ</td>
+                <td>æ ‡é¢˜</td>
                 <td>
                     <input type="text" name='ly_title' />
                 </td>
             </tr>
             <tr>
-                <td>ÄÚÈÝ</td>
+                <td>å†…å®¹</td>
                 <td>
                     <textarea  style="width: 200px;height: 100px;" name='ly_content'></textarea>
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
-                    <input type="submit" value="Ìá½»" />
+                    <input type="submit" value="ï¿½á½»" />
                 </td>
             </tr>
         </table>
